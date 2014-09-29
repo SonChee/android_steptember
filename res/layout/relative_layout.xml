@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:tools="http://schemas.android.com/tools"
+   tools:context="com.example.example1.MainActivity" 
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   android:paddingLeft="16dp"
+   android:paddingRight="16dp" >
+   
+    <TextView
+		android:id="@+id/text_title"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:textColor="@color/text_color2"
+		android:textSize="40dp"
+		android:typeface="monospace"
+		android:text = "RelativeLayout"
+	/>
+   <EditText
+      android:id="@+id/edit_text"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/text_title"
+      android:text = "enter your text" />
+   <TextView
+      android:id="@+id/text_view"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/edit_text"
+      android:layout_alignParentLeft="true"
+      android:layout_toLeftOf="@+id/times" />
+   <TextView
+      android:id="@id/times"
+      android:layout_width="96dp"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/edit_text"
+      android:layout_alignParentRight="true"
+      android:text = "Show time" />
+   <Button
+      android:id="@+id/button"
+      android:layout_width="96dp"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/times"
+      android:layout_centerInParent="true"
+      android:text="enter" />
+</RelativeLayout>

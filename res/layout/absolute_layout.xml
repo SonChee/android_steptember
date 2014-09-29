@@ -1,0 +1,30 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+     android:layout_x="10px"
+     android:layout_y="110px"
+     android:text="Day la anh baner cua cong ty Framgia"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_x="10px"
+     	android:layout_y="160px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/banner_top" />
+    <TextView
+     android:layout_x="10px"
+     android:layout_y="450px"
+     android:text="Ban thay dep khong ?"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content" />
+    <Button 
+     android:id="@+id/submit"
+     android:text="Back"
+     android:layout_x="360px"
+     android:layout_y="450px"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content" />
+</AbsoluteLayout>
